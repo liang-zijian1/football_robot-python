@@ -1,0 +1,612 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>bingxingfanjie</title><meta name="generator" content="MATLAB 9.13"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2024-08-01"><meta name="DC.source" content="bingxingfanjie.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; }
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+span.typesection { color:#A0522D }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><pre class="codeinput"><span class="comment">% &#21021;&#22987;&#26465;&#20214;</span>
+initial_speed = 50;
+roll_angle = 180;
+spin_speed = 5;
+target_position = [0, 10, 2];  <span class="comment">% &#30446;&#26631;&#20301;&#32622;&#65292;&#20363;&#23376;&#20013;&#30340;&#22352;&#26631;</span>
+pitch_range = linspace(0, 60, 150);  <span class="comment">% &#22312;0&#21040;60&#24230;&#20043;&#38388;&#20998;&#25104;&#33509;&#24178;&#20221;</span>
+yaw_range = linspace(45, 135, 150);  <span class="comment">% &#22312;45&#21040;135&#24230;&#20043;&#38388;&#20998;&#25104;&#33509;&#24178;&#20221;</span>
+
+<span class="comment">% &#29699;&#38376;&#21442;&#25968;</span>
+goal_width = 7.32;  <span class="comment">% &#26631;&#20934;&#29699;&#38376;&#23485;&#24230; (m)</span>
+goal_height = 2.44; <span class="comment">% &#26631;&#20934;&#29699;&#38376;&#39640;&#24230; (m)</span>
+
+<span class="comment">% &#21021;&#22987;&#21270;&#35823;&#24046;&#21644;&#23545;&#24212;&#30340;&#35282;&#24230;&#25968;&#32452;</span>
+errors = inf(length(pitch_range), length(yaw_range));
+pitch_yaw_pairs = zeros(length(pitch_range), length(yaw_range), 2);
+
+<span class="comment">% &#21024;&#38500;&#29616;&#26377;&#24182;&#34892;&#27744;</span>
+delete(gcp(<span class="string">'nocreate'</span>));
+
+
+<span class="comment">% &#21551;&#21160;&#26412;&#22320;&#24182;&#34892;&#27744;&#65292;&#20351;&#29992;&#19982;&#29289;&#29702;&#26680;&#24515;&#25968;&#37327;&#30456;&#21516;&#30340;&#24037;&#20316;&#32447;&#31243;&#25968;</span>
+numWorkers = feature(<span class="string">'numcores'</span>); <span class="comment">% &#33719;&#21462;&#35745;&#31639;&#26426;&#19978;&#30340;&#29289;&#29702;&#26680;&#24515;&#25968;&#37327;</span>
+parpool(<span class="string">'local'</span>, numWorkers);
+
+
+<span class="comment">% &#21021;&#22987;&#21270;&#24182;&#34892;&#29615;&#22659;&#20013;&#30340;&#36827;&#24230;&#35745;&#25968;&#22120;</span>
+progress = parallel.pool.DataQueue;
+total_iterations = length(pitch_range) * length(yaw_range);
+afterEach(progress, @(x) fprintf(<span class="string">'Progress: %.2f%%\n'</span>, (x / total_iterations) * 100));
+
+
+<span class="comment">% &#24182;&#34892;&#35745;&#31639;</span>
+<span class="keyword">parfor</span> i = 1:length(pitch_range)
+    local_errors = inf(1, length(yaw_range));
+    local_pitch_yaw_pairs = zeros(length(yaw_range), 2);
+
+    <span class="keyword">for</span> j = 1:length(yaw_range)
+        pitch = pitch_range(i);
+        yaw = yaw_range(j);
+
+        <span class="comment">% &#35745;&#31639;&#24403;&#21069;&#32452;&#21512;&#19979;&#30340;&#35823;&#24046;&#21644;&#20987;&#20013;&#20301;&#32622;</span>
+        [error, hit_position] = compute_trajectory_error_with_position([pitch, yaw], target_position, initial_speed, spin_speed, roll_angle);
+
+        <span class="comment">% &#26816;&#26597;&#26159;&#21542;&#22312;&#29699;&#38376;&#33539;&#22260;&#20869;</span>
+        <span class="keyword">if</span> abs(hit_position(1)) &lt;= goal_width / 2 &amp;&amp; hit_position(3) &lt;= goal_height
+            local_errors(j) = error;
+            local_pitch_yaw_pairs(j, :) = [pitch, yaw];
+        <span class="keyword">end</span>
+    <span class="keyword">end</span>
+
+    <span class="comment">% &#23558;&#23616;&#37096;&#32467;&#26524;&#20256;&#36882;&#22238;&#20840;&#23616;&#21464;&#37327;</span>
+    errors(i, :) = local_errors;
+    pitch_yaw_pairs(i, :, :) = local_pitch_yaw_pairs;
+
+    <span class="comment">% &#26356;&#26032;&#36827;&#24230;&#35745;&#25968;&#22120;</span>
+    send(progress, (i - 1) * length(yaw_range));
+<span class="keyword">end</span>
+
+<span class="comment">% &#25214;&#21040;&#35823;&#24046;&#26368;&#23567;&#30340;&#32452;&#21512;</span>
+[~, min_idx] = min(errors(:));
+[min_i, min_j] = ind2sub(size(errors), min_idx);
+optimal_angles = squeeze(pitch_yaw_pairs(min_i, min_j, :));
+
+fprintf(<span class="string">'Optimal Pitch Angle: %.2f degrees\n'</span>, optimal_angles(1));
+fprintf(<span class="string">'Optimal Yaw Angle: %.2f degrees\n'</span>, optimal_angles(2));
+fprintf(<span class="string">'Minimum Error: %.2f\n'</span>, errors(min_i, min_j));
+
+<span class="comment">% &#20851;&#38381;&#24182;&#34892;&#27744;</span>
+delete(gcp);
+
+<span class="comment">% &#35745;&#31639;&#36712;&#36857;&#35823;&#24046;&#21644;&#20987;&#20013;&#20301;&#32622;&#30340;&#20989;&#25968;</span>
+<span class="keyword">function</span> [error, hit_position] = compute_trajectory_error_with_position(angles, target_position, initial_speed, spin_speed, roll_angle)
+    pitch = deg2rad(angles(1));
+    yaw = deg2rad(angles(2));
+    roll = deg2rad(roll_angle);
+    w = spin_speed;
+
+    <span class="comment">% &#35745;&#31639;&#21021;&#22987;&#36895;&#24230;&#30340;&#20998;&#37327;</span>
+    v0x = initial_speed * cos(pitch) * cos(yaw);
+    v0y = initial_speed * cos(pitch) * sin(yaw);
+    v0z = initial_speed * sin(pitch);
+
+    <span class="comment">% &#35745;&#31639;&#21021;&#22987;&#36895;&#24230;&#30340;&#21333;&#20301;&#26041;&#21521;&#21521;&#37327;</span>
+    v0_unit = [v0x; v0y; v0z] / norm([v0x; v0y; v0z]);
+
+    <span class="comment">% &#36873;&#25321;&#19968;&#20010;&#20219;&#24847;&#21521;&#37327; a&#65292;&#19981;&#24179;&#34892;&#20110; v0_unit</span>
+    a = [1; 0; 0];
+    <span class="keyword">if</span> dot(a, v0_unit) == 1  <span class="comment">% &#22914;&#26524; a &#24179;&#34892;&#20110; v0_unit&#65292;&#21017;&#36873;&#25321;&#21478;&#19968;&#20010;&#21521;&#37327;</span>
+        a = [0; 1; 0];
+    <span class="keyword">end</span>
+
+    <span class="comment">% &#36890;&#36807;&#21449;&#20056;&#24471;&#21040;&#19968;&#20010;&#22402;&#30452;&#20110; v0_unit &#30340;&#21521;&#37327; b</span>
+    b = cross(v0_unit, a);
+    b_unit = b / norm(b);
+
+    <span class="comment">% &#36890;&#36807;&#21449;&#20056; v0_unit &#21644; b_unit&#65292;&#24471;&#21040;&#36741;&#21161;&#22352;&#26631;&#31995;&#30340; y' &#36724;&#26041;&#21521;&#21521;&#37327;</span>
+    c = cross(v0_unit, b_unit);
+    c_unit = c / norm(c);
+
+    <span class="comment">% &#35745;&#31639; omega &#22312;&#36741;&#21161;&#22352;&#26631;&#31995; x' &#21644; y' &#36724;&#19978;&#30340;&#20998;&#37327;</span>
+    omega_x_prime = w * cos(roll);
+    omega_y_prime = w * sin(roll);
+
+    <span class="comment">% &#23558; omega &#20998;&#37327;&#36716;&#25442;&#22238;&#21407;&#22987;&#22352;&#26631;&#31995;</span>
+    omega = omega_x_prime * b_unit + omega_y_prime * c_unit;
+
+    <span class="comment">% &#21021;&#22987;&#29366;&#24577;&#21521;&#37327; [x0, y0, z0, vx0, vy0, vz0, wx, wy, wz]</span>
+    initial_state = [0; 0; 0; v0x; v0y; v0z; omega(1); omega(2); omega(3)];
+
+    <span class="comment">% &#26102;&#38388;&#33539;&#22260;</span>
+    tspan = [0 10];
+
+    <span class="comment">% &#20351;&#29992; ode45 &#27714;&#35299;&#24494;&#20998;&#26041;&#31243;</span>
+    [t, state] = ode45(@(t, state) projectile(t, state, omega), tspan, initial_state);
+
+    <span class="comment">% &#35745;&#31639;&#20301;&#32622;</span>
+    x = state(:, 1);
+    y = state(:, 2);
+    z = state(:, 3);
+
+    <span class="comment">% &#25214;&#21040;&#36275;&#29699;&#19982;&#29699;&#38376;&#25152;&#22312;&#24179;&#38754;&#30340;&#20132;&#28857; (y = 10)</span>
+    y_position = state(:, 2);
+    crossing_index = find(y_position &gt;= 10, 1);
+
+    <span class="keyword">if</span> isempty(crossing_index)
+        <span class="comment">% &#22914;&#26524;&#36275;&#29699;&#26410;&#33021;&#21040;&#36798;&#29699;&#38376;&#24179;&#38754;&#65292;&#21017;&#23558;&#35823;&#24046;&#35774;&#32622;&#20026;&#19968;&#20010;&#22823;&#20540;</span>
+        error = inf;
+        hit_position = [inf, inf, inf];
+    <span class="keyword">else</span>
+        <span class="comment">% &#30830;&#20445;&#36712;&#36857;&#19981;&#36229;&#36807; xz &#24179;&#38754;</span>
+        x_hit = x(crossing_index);
+        z_hit = z(crossing_index);
+        hit_position = [x_hit, 10, z_hit];
+
+        <span class="comment">% &#35745;&#31639;&#19982;&#30446;&#26631;&#20301;&#32622;&#30340;&#35823;&#24046;</span>
+        error = norm(hit_position - target_position);
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+<span class="comment">% &#23450;&#20041;&#24494;&#20998;&#26041;&#31243;</span>
+<span class="keyword">function</span> dstate = projectile(~, state, omega)
+    <span class="comment">% &#25552;&#21462;&#29366;&#24577;&#21464;&#37327;</span>
+    x = state(1);
+    y = state(2);
+    z = state(3);
+    vx = state(4);
+    vy = state(5);
+    vz = state(6);
+
+    <span class="comment">% &#36275;&#29699;&#21644;&#31354;&#27668;&#21442;&#25968;</span>
+    rho = 1.225;        <span class="comment">% &#31354;&#27668;&#23494;&#24230; (kg/m^3)</span>
+    d = 0.22;           <span class="comment">% &#36275;&#29699;&#30452;&#24452; (m)</span>
+    m = 0.220;          <span class="comment">% &#36275;&#29699;&#36136;&#37327; (kg)</span>
+    g = 9.8;            <span class="comment">% &#37325;&#21147;&#21152;&#36895;&#24230; (m/s^2)</span>
+
+    <span class="comment">% &#35745;&#31639;&#36895;&#24230;&#21644;&#36895;&#24230;&#22823;&#23567;</span>
+    velocity = [vx; vy; vz];
+    speed = norm(velocity);
+
+    <span class="comment">% &#35745;&#31639;&#38459;&#21147;&#31995;&#25968; Cd</span>
+    mu = 1.81e-5;  <span class="comment">% &#31354;&#27668;&#21160;&#21147;&#31896;&#24230; (Pa.s)</span>
+    Re = (rho * speed * d) / mu;
+    Cd = 0.5 * (1.5 + 0.4) + (atan((exp(Re) - exp(25)) / exp(24)) / 1.5708 + 1) / 2 * (exp(-0.0206 * Re + 0.9286) + 0.76 - 0.5 * (1.5 + 0.4));
+
+    <span class="comment">% &#35745;&#31639;&#31354;&#27668;&#38459;&#21147;</span>
+    A = pi * (d / 2)^2;  <span class="comment">% &#25130;&#38754;&#31215;</span>
+    Fd = 0.5 * rho * speed^2 * A * Cd;
+
+    <span class="comment">% &#35745;&#31639;&#39532;&#26684;&#21162;&#26031;&#21147;</span>
+    Cl = 1;  <span class="comment">% &#21319;&#21147;&#31995;&#25968;&#65292;&#21462;&#19968;&#20010;&#24120;&#25968;&#20540;</span>
+    <span class="keyword">if</span> speed == 0
+        Fm = [0; 0; 0];  <span class="comment">% &#36991;&#20813;&#36895;&#24230;&#20026;&#38646;&#26102;&#30340;&#38500;&#38646;&#38169;&#35823;</span>
+    <span class="keyword">else</span>
+        Fm = Cl * 0.5 * rho * A * cross(omega, velocity);
+    <span class="keyword">end</span>
+
+    <span class="comment">% &#35745;&#31639;&#24635;&#21152;&#36895;&#24230;</span>
+    acceleration = (-Fd / m) * (velocity / speed) + Fm / m - [0; 0; g];
+
+    <span class="comment">% &#26356;&#26032;&#29366;&#24577;&#23548;&#25968;</span>
+    dstate = zeros(9, 1);
+    dstate(1) = vx;        <span class="comment">% x &#26041;&#21521;&#36895;&#24230;</span>
+    dstate(2) = vy;        <span class="comment">% y &#26041;&#21521;&#36895;&#24230;</span>
+    dstate(3) = vz;        <span class="comment">% z &#26041;&#21521;&#36895;&#24230;</span>
+    dstate(4) = acceleration(1);  <span class="comment">% x &#26041;&#21521;&#21152;&#36895;&#24230;</span>
+    dstate(5) = acceleration(2);  <span class="comment">% y &#26041;&#21521;&#21152;&#36895;&#24230;</span>
+    dstate(6) = acceleration(3);  <span class="comment">% z &#26041;&#21521;&#21152;&#36895;&#24230;</span>
+    dstate(7) = 0;         <span class="comment">% omega_x &#24658;&#23450;</span>
+    dstate(8) = 0;         <span class="comment">% omega_y &#24658;&#23450;</span>
+    dstate(9) = 0;         <span class="comment">% omega_z &#24658;&#23450;</span>
+<span class="keyword">end</span>
+</pre><pre class="codeoutput">Starting parallel pool (parpool) using the 'local' profile ...
+Connected to the parallel pool (number of workers: 8).
+Progress: 0.00%
+Progress: 2.00%
+Progress: 4.67%
+Progress: 0.67%
+Progress: 4.00%
+Progress: 3.33%
+Progress: 1.33%
+Progress: 10.67%
+Progress: 2.67%
+Progress: 28.67%
+Progress: 16.67%
+Progress: 40.67%
+Progress: 52.67%
+Progress: 46.67%
+Progress: 22.67%
+Progress: 10.00%
+Progress: 28.00%
+Progress: 34.67%
+Progress: 16.00%
+Progress: 52.00%
+Progress: 46.00%
+Progress: 40.00%
+Progress: 22.00%
+Progress: 27.33%
+Progress: 9.33%
+Progress: 34.00%
+Progress: 51.33%
+Progress: 39.33%
+Progress: 45.33%
+Progress: 15.33%
+Progress: 21.33%
+Progress: 8.67%
+Progress: 26.67%
+Progress: 33.33%
+Progress: 50.67%
+Progress: 38.67%
+Progress: 44.67%
+Progress: 14.67%
+Progress: 32.67%
+Progress: 8.00%
+Progress: 20.67%
+Progress: 26.00%
+Progress: 50.00%
+Progress: 38.00%
+Progress: 44.00%
+Progress: 14.00%
+Progress: 7.33%
+Progress: 25.33%
+Progress: 32.00%
+Progress: 49.33%
+Progress: 20.00%
+Progress: 43.33%
+Progress: 37.33%
+Progress: 6.67%
+Progress: 48.67%
+Progress: 13.33%
+Progress: 24.67%
+Progress: 42.67%
+Progress: 31.33%
+Progress: 19.33%
+Progress: 36.67%
+Progress: 6.00%
+Progress: 24.00%
+Progress: 12.67%
+Progress: 30.67%
+Progress: 48.00%
+Progress: 42.00%
+Progress: 18.67%
+Progress: 36.00%
+Progress: 5.33%
+Progress: 23.33%
+Progress: 12.00%
+Progress: 30.00%
+Progress: 47.33%
+Progress: 41.33%
+Progress: 35.33%
+Progress: 18.00%
+Progress: 58.00%
+Progress: 11.33%
+Progress: 55.33%
+Progress: 29.33%
+Progress: 60.67%
+Progress: 66.00%
+Progress: 17.33%
+Progress: 71.33%
+Progress: 54.67%
+Progress: 63.33%
+Progress: 57.33%
+Progress: 74.00%
+Progress: 60.00%
+Progress: 68.67%
+Progress: 62.67%
+Progress: 54.00%
+Progress: 65.33%
+Progress: 70.67%
+Progress: 56.67%
+Progress: 73.33%
+Progress: 68.00%
+Progress: 53.33%
+Progress: 59.33%
+Progress: 62.00%
+Progress: 64.67%
+Progress: 70.00%
+Progress: 67.33%
+Progress: 56.00%
+Progress: 72.67%
+Progress: 75.33%
+Progress: 58.67%
+Progress: 61.33%
+Progress: 69.33%
+Progress: 64.00%
+Progress: 76.67%
+Progress: 66.67%
+Progress: 72.00%
+Progress: 74.67%
+Progress: 78.00%
+Progress: 82.00%
+Progress: 80.67%
+Progress: 79.33%
+Progress: 83.33%
+Progress: 84.67%
+Progress: 76.00%
+Progress: 77.33%
+Progress: 85.33%
+Progress: 81.33%
+Progress: 80.00%
+Progress: 78.67%
+Progress: 82.67%
+Progress: 86.00%
+Progress: 84.00%
+Progress: 90.67%
+Progress: 86.67%
+Progress: 87.33%
+Progress: 88.67%
+Progress: 88.00%
+Progress: 91.33%
+Progress: 90.00%
+Progress: 92.67%
+Progress: 89.33%
+Progress: 92.00%
+Progress: 93.33%
+Progress: 94.67%
+Progress: 94.00%
+Progress: 96.00%
+Progress: 98.00%
+Progress: 97.33%
+Progress: 95.33%
+Progress: 96.67%
+Progress: 98.67%
+Progress: 99.33%
+Optimal Pitch Angle: 12.89 degrees
+Optimal Yaw Angle: 85.47 degrees
+Minimum Error: 0.03
+Parallel pool using the 'Processes' profile is shutting down.
+</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2022b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+% 初始条件
+initial_speed = 50;
+roll_angle = 180;
+spin_speed = 5;
+target_position = [0, 10, 2];  % 目标位置，例子中的坐标
+pitch_range = linspace(0, 60, 150);  % 在0到60度之间分成若干份
+yaw_range = linspace(45, 135, 150);  % 在45到135度之间分成若干份
+
+% 球门参数
+goal_width = 7.32;  % 标准球门宽度 (m)
+goal_height = 2.44; % 标准球门高度 (m)
+
+% 初始化误差和对应的角度数组
+errors = inf(length(pitch_range), length(yaw_range));
+pitch_yaw_pairs = zeros(length(pitch_range), length(yaw_range), 2);
+
+% 删除现有并行池
+delete(gcp('nocreate'));
+
+
+% 启动本地并行池，使用与物理核心数量相同的工作线程数
+numWorkers = feature('numcores'); % 获取计算机上的物理核心数量
+parpool('local', numWorkers);
+
+
+% 初始化并行环境中的进度计数器
+progress = parallel.pool.DataQueue;
+total_iterations = length(pitch_range) * length(yaw_range);
+afterEach(progress, @(x) fprintf('Progress: %.2f%%\n', (x / total_iterations) * 100));
+
+
+% 并行计算
+parfor i = 1:length(pitch_range)
+    local_errors = inf(1, length(yaw_range));
+    local_pitch_yaw_pairs = zeros(length(yaw_range), 2);
+    
+    for j = 1:length(yaw_range)
+        pitch = pitch_range(i);
+        yaw = yaw_range(j);
+        
+        % 计算当前组合下的误差和击中位置
+        [error, hit_position] = compute_trajectory_error_with_position([pitch, yaw], target_position, initial_speed, spin_speed, roll_angle);
+        
+        % 检查是否在球门范围内
+        if abs(hit_position(1)) <= goal_width / 2 && hit_position(3) <= goal_height
+            local_errors(j) = error;
+            local_pitch_yaw_pairs(j, :) = [pitch, yaw];
+        end
+    end
+    
+    % 将局部结果传递回全局变量
+    errors(i, :) = local_errors;
+    pitch_yaw_pairs(i, :, :) = local_pitch_yaw_pairs;
+    
+    % 更新进度计数器
+    send(progress, (i - 1) * length(yaw_range));
+end
+
+% 找到误差最小的组合
+[~, min_idx] = min(errors(:));
+[min_i, min_j] = ind2sub(size(errors), min_idx);
+optimal_angles = squeeze(pitch_yaw_pairs(min_i, min_j, :));
+
+fprintf('Optimal Pitch Angle: %.2f degrees\n', optimal_angles(1));
+fprintf('Optimal Yaw Angle: %.2f degrees\n', optimal_angles(2));
+fprintf('Minimum Error: %.2f\n', errors(min_i, min_j));
+
+% 关闭并行池
+delete(gcp);
+
+% 计算轨迹误差和击中位置的函数
+function [error, hit_position] = compute_trajectory_error_with_position(angles, target_position, initial_speed, spin_speed, roll_angle)
+    pitch = deg2rad(angles(1));
+    yaw = deg2rad(angles(2));
+    roll = deg2rad(roll_angle);
+    w = spin_speed;
+    
+    % 计算初始速度的分量
+    v0x = initial_speed * cos(pitch) * cos(yaw);
+    v0y = initial_speed * cos(pitch) * sin(yaw);
+    v0z = initial_speed * sin(pitch);
+    
+    % 计算初始速度的单位方向向量
+    v0_unit = [v0x; v0y; v0z] / norm([v0x; v0y; v0z]);
+    
+    % 选择一个任意向量 a，不平行于 v0_unit
+    a = [1; 0; 0];
+    if dot(a, v0_unit) == 1  % 如果 a 平行于 v0_unit，则选择另一个向量
+        a = [0; 1; 0];
+    end
+    
+    % 通过叉乘得到一个垂直于 v0_unit 的向量 b
+    b = cross(v0_unit, a);
+    b_unit = b / norm(b);
+    
+    % 通过叉乘 v0_unit 和 b_unit，得到辅助坐标系的 y' 轴方向向量
+    c = cross(v0_unit, b_unit);
+    c_unit = c / norm(c);
+    
+    % 计算 omega 在辅助坐标系 x' 和 y' 轴上的分量
+    omega_x_prime = w * cos(roll);
+    omega_y_prime = w * sin(roll);
+    
+    % 将 omega 分量转换回原始坐标系
+    omega = omega_x_prime * b_unit + omega_y_prime * c_unit;
+    
+    % 初始状态向量 [x0, y0, z0, vx0, vy0, vz0, wx, wy, wz]
+    initial_state = [0; 0; 0; v0x; v0y; v0z; omega(1); omega(2); omega(3)];
+    
+    % 时间范围
+    tspan = [0 10];
+    
+    % 使用 ode45 求解微分方程
+    [t, state] = ode45(@(t, state) projectile(t, state, omega), tspan, initial_state);
+    
+    % 计算位置
+    x = state(:, 1);
+    y = state(:, 2);
+    z = state(:, 3);
+    
+    % 找到足球与球门所在平面的交点 (y = 10)
+    y_position = state(:, 2);
+    crossing_index = find(y_position >= 10, 1);
+    
+    if isempty(crossing_index)
+        % 如果足球未能到达球门平面，则将误差设置为一个大值
+        error = inf;
+        hit_position = [inf, inf, inf];
+    else
+        % 确保轨迹不超过 xz 平面
+        x_hit = x(crossing_index);
+        z_hit = z(crossing_index);
+        hit_position = [x_hit, 10, z_hit];
+        
+        % 计算与目标位置的误差
+        error = norm(hit_position - target_position);
+    end
+end
+
+% 定义微分方程
+function dstate = projectile(~, state, omega)
+    % 提取状态变量
+    x = state(1);
+    y = state(2);
+    z = state(3);
+    vx = state(4);
+    vy = state(5);
+    vz = state(6);
+    
+    % 足球和空气参数
+    rho = 1.225;        % 空气密度 (kg/m^3)
+    d = 0.22;           % 足球直径 (m)
+    m = 0.220;          % 足球质量 (kg)
+    g = 9.8;            % 重力加速度 (m/s^2)
+    
+    % 计算速度和速度大小
+    velocity = [vx; vy; vz];
+    speed = norm(velocity);
+    
+    % 计算阻力系数 Cd
+    mu = 1.81e-5;  % 空气动力粘度 (Pa.s)
+    Re = (rho * speed * d) / mu;
+    Cd = 0.5 * (1.5 + 0.4) + (atan((exp(Re) - exp(25)) / exp(24)) / 1.5708 + 1) / 2 * (exp(-0.0206 * Re + 0.9286) + 0.76 - 0.5 * (1.5 + 0.4));
+    
+    % 计算空气阻力
+    A = pi * (d / 2)^2;  % 截面积
+    Fd = 0.5 * rho * speed^2 * A * Cd;
+    
+    % 计算马格努斯力
+    Cl = 1;  % 升力系数，取一个常数值
+    if speed == 0
+        Fm = [0; 0; 0];  % 避免速度为零时的除零错误
+    else
+        Fm = Cl * 0.5 * rho * A * cross(omega, velocity);
+    end
+    
+    % 计算总加速度
+    acceleration = (-Fd / m) * (velocity / speed) + Fm / m - [0; 0; g];
+    
+    % 更新状态导数
+    dstate = zeros(9, 1);
+    dstate(1) = vx;        % x 方向速度
+    dstate(2) = vy;        % y 方向速度
+    dstate(3) = vz;        % z 方向速度
+    dstate(4) = acceleration(1);  % x 方向加速度
+    dstate(5) = acceleration(2);  % y 方向加速度
+    dstate(6) = acceleration(3);  % z 方向加速度
+    dstate(7) = 0;         % omega_x 恒定
+    dstate(8) = 0;         % omega_y 恒定
+    dstate(9) = 0;         % omega_z 恒定
+end
+
+##### SOURCE END #####
+--></body></html>
