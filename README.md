@@ -27,5 +27,14 @@
 1. 克隆项目仓库：
    ```bash
    git clone https://github.com/liang-zijian1/football_robot-python.git
+2. 安装环境依赖
+    ```bash
+    pip install -r requirements.txt
+    注意：请使用python3.12版本
+3. 使用
+   请参考FRC竞赛机器人官方文档
+   https://docs.wpilib.org/en/stable/docs/zero-to-robot/introduction.html
+
+   
 
 
