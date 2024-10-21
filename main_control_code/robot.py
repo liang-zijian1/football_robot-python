@@ -7,7 +7,7 @@
 import wpilib.drive  # Used for the DifferentialDrive class
 from phoenix6.hardware import Pigeon2, TalonFX, CANcoder
 from phoenix6.controls import DutyCycleOut, TorqueCurrentFOC, VoltageOut, PositionDutyCycle, PositionVoltage, PositionTorqueCurrentFOC, VelocityDutyCycle, VelocityVoltage, VelocityTorqueCurrentFOC, MotionMagicDutyCycle, MotionMagicVoltage, MotionMagicTorqueCurrentFOC, DifferentialDutyCycle, DifferentialVoltage, DifferentialPositionDutyCycle, DifferentialPositionVoltage, DifferentialVelocityDutyCycle, DifferentialVelocityVoltage, DifferentialMotionMagicDutyCycle, DifferentialMotionMagicVoltage, Follower, StrictFollower, DifferentialFollower, DifferentialStrictFollower, NeutralOut, CoastOut, StaticBrake, MusicTone, MotionMagicVelocityDutyCycle, MotionMagicVelocityTorqueCurrentFOC, MotionMagicVelocityVoltage, MotionMagicExpoDutyCycle, MotionMagicExpoVoltage, MotionMagicExpoTorqueCurrentFOC, DynamicMotionMagicDutyCycle, DynamicMotionMagicVoltage, DynamicMotionMagicTorqueCurrentFOC
-from phoenix5 import TalonSRX, ControlMode
+from phoenix5 import TalonSRX, ControlMode,VictorSPX,VictorSPXControlMode
 from wpilib import XboxController
 from wpilib import SmartDashboard
 from wpilib import AddressableLED
@@ -398,42 +398,49 @@ class Roll:
                 self.roll_motor.set_control(PositionDutyCycle(self.init_position-self.init_step*2))
             if pov==0:
                 self.roll_motor.set_control(PositionDutyCycle(self.init_position - self.init_step))
-class Shooter:    
+class Shooter: 
+    
     def __init__(self):
         self.shooter_left=TalonFX(17)
         self.shooter_right=TalonFX(18)
-        self.led = LED()
         self.target_velocity_left=-50
-        self.target_velocity_right=50
+        self.target_velocity_right=40
     
     def control(self, button1, button2,):
         if button1 > 0.1 or button2 > 0.1:
             # 正转和反转设定
-            self.shooter_left.set_control(VelocityTorqueCurrentFOC(velocity=self.target_velocity_left, feed_forward=-1.5))
-            self.shooter_right.set_control(VelocityTorqueCurrentFOC(velocity=self.target_velocity_right, feed_forward=1.5))
+            self.shooter_left.set_control(VelocityDutyCycle(velocity=self.target_velocity_left,acceleration=-2.0,feed_forward=-0.2,enable_foc=True,slot=0))
+            self.shooter_right.set_control(VelocityDutyCycle(velocity=self.target_velocity_right,acceleration=2.0,feed_forward=0.2,enable_foc=True,slot=0))
         else:
             # 低速保持
-            self.shooter_left.set_control(VelocityTorqueCurrentFOC(velocity=-5, feed_forward=-1.5))
-            self.shooter_right.set_control(VelocityTorqueCurrentFOC(velocity=5, feed_forward=1.5))
+            self.shooter_left.set_control(VelocityDutyCycle(velocity=-5, feed_forward=-0.2,slot=1))
+            self.shooter_right.set_control(VelocityDutyCycle(velocity=5, feed_forward=0.2,slot=1))
         
         # 输出到 SmartDashboard
-        left_velocity = self.shooter_left.get_velocity().value_as_double
-        right_velocity = self.shooter_right.get_velocity().value_as_double
-        SmartDashboard.putNumber("average_velocity", (left_velocity + right_velocity) * 0.5)
-        SmartDashboard.putNumber("velocity_difference", abs(left_velocity - right_velocity))
-        if abs(left_velocity - self.target_velocity_left) < 2 and abs(right_velocity - self.target_velocity_right) < 2:
-            self.led.blink(0, 255, 0)  # 绿灯闪烁表示速度平稳可以射球
-        else:    
-            self.led.set_color(0,255,0,brightness=0.25)
+        self.left_velocity = self.shooter_left.get_velocity().value_as_double
+        self.right_velocity = self.shooter_right.get_velocity().value_as_double
+        SmartDashboard.putNumber("average_velocity", (self.left_velocity + self.right_velocity) * 0.5)
+        SmartDashboard.putNumber("velocity_difference", abs(self.left_velocity - self.right_velocity))
+       
+class Ballpipe:
+    def __init__(self):
+        self.Ballpipe_motor = VictorSPX(2)
+        
+    def control(self,button):
+        if button==True:
+            self.Ballpipe_motor.set(VictorSPXControlMode.PercentOutput, -1)
+        else:
+            self.Ballpipe_motor.set(VictorSPXControlMode.PercentOutput, 0)
 class LED:
     def __init__(self):
-        self.led = wpilib.AddressableLED(0)  # 使用PWM端口0
-        self.led_buffer = [wpilib.AddressableLED.LEDData(0, 0, 0) for _ in range(60)]  
-        self.led.setLength(len(self.led_buffer))
-        self.led.setData(self.led_buffer)
-        self.led.start()
-        self.blink_state = False
-        self.counter = 0
+        if not hasattr(self, 'led'):
+            self.led = wpilib.AddressableLED(0)  # 使用PWM端口0
+            self.led_buffer = [wpilib.AddressableLED.LEDData(0, 0, 0) for _ in range(60)]  
+            self.led.setLength(len(self.led_buffer))
+            self.led.setData(self.led_buffer)
+            self.led.start()
+            self.blink_state = False
+            self.counter = 0
       
     def set_color(self, r: int, g: int, b: int, brightness: float = 1.0):
         """设置所有LED的颜色并调节亮度"""
@@ -455,7 +462,6 @@ class LED:
             else:
                 self.set_color(0, 0, 0)  # 关闭
   
-    
 class MyRobot(wpilib.TimedRobot):
     def robotInit(self):
         """
@@ -469,6 +475,7 @@ class MyRobot(wpilib.TimedRobot):
         self.my_Pitch = Pitch()
         self.my_Roll = Roll()
         self.my_Shooter = Shooter()
+        self.my_ballpipe = Ballpipe()
         self.my_led = LED()
         self.my_led.set_color(255,0,0)
     
@@ -510,8 +517,12 @@ class MyRobot(wpilib.TimedRobot):
         self.my_Pitch.control(self.controller.getXButtonPressed(), self.controller.getYButtonPressed())
         self.my_Shooter.control(self.controller.getRightTriggerAxis(), self.controller.getLeftTriggerAxis())
         self.my_Roll.periodic_motor_control(self.controller.getPOV()) 
-        
-      
+        self.my_ballpipe.control(self.controller.getRightBumper())
+        if abs(self.my_Shooter.left_velocity - self.my_Shooter.target_velocity_left) < 2 and abs(self.my_Shooter.right_velocity - self.my_Shooter.target_velocity_right) < 2:
+            self.my_led.blink(0, 255, 0)  # 绿灯闪烁表示速度平稳可以射球
+        else:    
+            self.my_led.set_color(0,255,0,brightness=0.25)
+       
 
 
     def testInit(self):
