@@ -30,7 +30,7 @@
 2. 安装环境依赖
     ```bash
     pip install -r requirements.txt
-    注意：请使用python3.12版本
+    注意：必须使用python3.12版本
 ## 使用
 - 请参考FRC竞赛机器人官方文档
 - https://docs.wpilib.org/en/stable/docs/zero-to-robot/introduction.html
