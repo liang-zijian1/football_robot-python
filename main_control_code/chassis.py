@@ -1,6 +1,6 @@
 from phoenix6.hardware import Pigeon2, TalonFX, CANcoder
 from phoenix6.controls import DutyCycleOut, TorqueCurrentFOC, VoltageOut, PositionDutyCycle, PositionVoltage, PositionTorqueCurrentFOC, VelocityDutyCycle, VelocityVoltage, VelocityTorqueCurrentFOC, Follower,MusicTone
-from wpilib import XboxController,SmartDashboard
+from wpilib import XboxController
 import math
 
 class Speed:

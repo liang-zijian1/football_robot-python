@@ -1,7 +1,0 @@
-E:/Desktop/football_robot/code/build/CMakeFiles/apriltag.dir
-E:/Desktop/football_robot/code/build/CMakeFiles/apriltag_py_docstrings.dir
-E:/Desktop/football_robot/code/build/CMakeFiles/apriltag.cp312-win_amd64.dir
-E:/Desktop/football_robot/code/build/CMakeFiles/apriltag_demo.dir
-E:/Desktop/football_robot/code/build/CMakeFiles/INSTALL.dir
-E:/Desktop/football_robot/code/build/CMakeFiles/ALL_BUILD.dir
-E:/Desktop/football_robot/code/build/CMakeFiles/ZERO_CHECK.dir
