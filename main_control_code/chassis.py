@@ -1,6 +1,6 @@
 from phoenix6.hardware import Pigeon2, TalonFX, CANcoder
 from phoenix6.controls import DutyCycleOut, TorqueCurrentFOC, VoltageOut, PositionDutyCycle, PositionVoltage, PositionTorqueCurrentFOC, VelocityDutyCycle, VelocityVoltage, VelocityTorqueCurrentFOC, Follower,MusicTone
-from wpilib import XboxController
+from wpilib import XboxController,SmartDashboard
 import math
 
 class Speed:
@@ -56,7 +56,7 @@ class Wheel:
         self.servo_motor.set_control(PositionDutyCycle(rotation + self.offset_inter))
 
     def wheel_percent_ctrl(self, percent):
-        self.drive_motor.set_control(DutyCycleOut(percent))
+        self.drive_motor.set_control(DutyCycleOut(-percent))
 
 
 class Helper:
@@ -157,6 +157,11 @@ class Chassis:
         temp = speed_y * math.cos(angle) + speed_x * math.sin(angle)
         speed_x = -1 * speed_y * math.sin(angle) + speed_x * math.cos(angle)
         speed_y = temp
+        # SmartDashboard.putNumber("speed_x",(speed_x))
+        # SmartDashboard.putNumber("speed_y",(speed_y))
+        # print(f'speed_x={speed_x}')
+        # print(f'speed_y={speed_y}')
+        
         # 旋转停止后更新陀螺仪角度
         if speed_w == 0.0 and (not self.pre_speed_w == 0.0):
             self.target_angle_gyro = current_angle
@@ -186,14 +191,19 @@ class Chassis:
         if abs(car_yaw < math.pi * -0.5):
             car_yaw = car_yaw + math.pi
             car_v = -car_v
-
+        
+        # SmartDashboard.putNumber("car_v",(car_v))
+        # SmartDashboard.putNumber("car_yaw",(car_yaw))
+       # print(f'car_v= {car_v}')
+       # print(f'car_yaw= {car_yaw}')
+        
         for i in range(4):
             self.wheel_lp[i].present_speed.m_vec_yaw = car_yaw
             self.wheel_lp[i].present_speed.m_vec_v = car_v
 
         if not speed_w == 0:
             # 速度赋值PTZ_yaw
-            speed_w *= 0.6  # 可更改
+            speed_w *=- 0.6  # 可更改,根据硬件调试
             self.wheel_info[0].m_vec_v = -speed_w
             self.wheel_info[1].m_vec_v = speed_w
             self.wheel_info[2].m_vec_v = -speed_w

@@ -1,0 +1,1678 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 0:20:26銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.41
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-of0gly"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-of0gly"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-of0gly
+        
+        Run Build Command(s):E:/Visual Studio build tools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5db75.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 0:20:28銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of0gly\\cmTC_5db75.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5db75.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of0gly\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5db75.dir\\Debug\\cmTC_5db75.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_5db75.dir\\Debug\\cmTC_5db75.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_5db75.dir\\Debug\\cmTC_5db75.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5db75.dir\\Debug\\\\" /Fd"cmTC_5db75.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5db75.dir\\Debug\\\\" /Fd"cmTC_5db75.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of0gly\\Debug\\cmTC_5db75.exe" /INCREMENTAL /ILK:"cmTC_5db75.dir\\Debug\\cmTC_5db75.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-of0gly/Debug/cmTC_5db75.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-of0gly/Debug/cmTC_5db75.lib" /MACHINE:X64  /machine:x64 cmTC_5db75.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_5db75.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of0gly\\Debug\\cmTC_5db75.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_5db75.dir\\Debug\\cmTC_5db75.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_5db75.dir\\Debug\\cmTC_5db75.tlog\\cmTC_5db75.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-of0gly\\cmTC_5db75.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.40
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 0:20:32銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.39
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-1a983f"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-1a983f"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-1a983f
+        
+        Run Build Command(s):E:/Visual Studio build tools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_38f85.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 0:20:34銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a983f\\cmTC_38f85.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_38f85.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a983f\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_38f85.dir\\Debug\\cmTC_38f85.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_38f85.dir\\Debug\\cmTC_38f85.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_38f85.dir\\Debug\\cmTC_38f85.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_38f85.dir\\Debug\\\\" /Fd"cmTC_38f85.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_38f85.dir\\Debug\\\\" /Fd"cmTC_38f85.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a983f\\Debug\\cmTC_38f85.exe" /INCREMENTAL /ILK:"cmTC_38f85.dir\\Debug\\cmTC_38f85.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-1a983f/Debug/cmTC_38f85.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-1a983f/Debug/cmTC_38f85.lib" /MACHINE:X64  /machine:x64 cmTC_38f85.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_38f85.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a983f\\Debug\\cmTC_38f85.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_38f85.dir\\Debug\\cmTC_38f85.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_38f85.dir\\Debug\\cmTC_38f85.tlog\\cmTC_38f85.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1a983f\\cmTC_38f85.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.37
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 0:24:05銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.47
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-6q8bag"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-6q8bag"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-6q8bag
+        
+        Run Build Command(s):E:/Visual Studio build tools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3e358.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 0:24:07銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6q8bag\\cmTC_3e358.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3e358.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6q8bag\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3e358.dir\\Debug\\cmTC_3e358.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_3e358.dir\\Debug\\cmTC_3e358.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3e358.dir\\Debug\\cmTC_3e358.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e358.dir\\Debug\\\\" /Fd"cmTC_3e358.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e358.dir\\Debug\\\\" /Fd"cmTC_3e358.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6q8bag\\Debug\\cmTC_3e358.exe" /INCREMENTAL /ILK:"cmTC_3e358.dir\\Debug\\cmTC_3e358.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-6q8bag/Debug/cmTC_3e358.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-6q8bag/Debug/cmTC_3e358.lib" /MACHINE:X64  /machine:x64 cmTC_3e358.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3e358.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6q8bag\\Debug\\cmTC_3e358.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_3e358.dir\\Debug\\cmTC_3e358.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3e358.dir\\Debug\\cmTC_3e358.tlog\\cmTC_3e358.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6q8bag\\cmTC_3e358.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.38
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 0:24:11銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.39
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-o1rk06"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-o1rk06"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-o1rk06
+        
+        Run Build Command(s):E:/Visual Studio build tools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bde4f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 0:24:13銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1rk06\\cmTC_bde4f.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bde4f.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1rk06\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bde4f.dir\\Debug\\cmTC_bde4f.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_bde4f.dir\\Debug\\cmTC_bde4f.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bde4f.dir\\Debug\\cmTC_bde4f.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bde4f.dir\\Debug\\\\" /Fd"cmTC_bde4f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bde4f.dir\\Debug\\\\" /Fd"cmTC_bde4f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\Visual Studio build tools\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1rk06\\Debug\\cmTC_bde4f.exe" /INCREMENTAL /ILK:"cmTC_bde4f.dir\\Debug\\cmTC_bde4f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-o1rk06/Debug/cmTC_bde4f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-o1rk06/Debug/cmTC_bde4f.lib" /MACHINE:X64  /machine:x64 cmTC_bde4f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bde4f.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1rk06\\Debug\\cmTC_bde4f.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_bde4f.dir\\Debug\\cmTC_bde4f.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bde4f.dir\\Debug\\cmTC_bde4f.tlog\\cmTC_bde4f.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o1rk06\\cmTC_bde4f.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.40
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:25:38銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:02.05
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-ijv0aj"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-ijv0aj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-ijv0aj
+        
+        Run Build Command(s):E:/Microsoft Visual Studio 2022 Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f4173.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:25:41銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ijv0aj\\cmTC_f4173.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f4173.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ijv0aj\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_f4173.dir\\Debug\\cmTC_f4173.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_f4173.dir\\Debug\\cmTC_f4173.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f4173.dir\\Debug\\cmTC_f4173.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4173.dir\\Debug\\\\" /Fd"cmTC_f4173.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f4173.dir\\Debug\\\\" /Fd"cmTC_f4173.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ijv0aj\\Debug\\cmTC_f4173.exe" /INCREMENTAL /ILK:"cmTC_f4173.dir\\Debug\\cmTC_f4173.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-ijv0aj/Debug/cmTC_f4173.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-ijv0aj/Debug/cmTC_f4173.lib" /MACHINE:X64  /machine:x64 cmTC_f4173.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f4173.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ijv0aj\\Debug\\cmTC_f4173.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_f4173.dir\\Debug\\cmTC_f4173.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_f4173.dir\\Debug\\cmTC_f4173.tlog\\cmTC_f4173.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ijv0aj\\cmTC_f4173.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.39
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:25:48銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.54
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-t0kakg"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-t0kakg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-t0kakg
+        
+        Run Build Command(s):E:/Microsoft Visual Studio 2022 Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b3f7b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:25:50銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0kakg\\cmTC_b3f7b.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b3f7b.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0kakg\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b3f7b.dir\\Debug\\cmTC_b3f7b.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_b3f7b.dir\\Debug\\cmTC_b3f7b.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b3f7b.dir\\Debug\\cmTC_b3f7b.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b3f7b.dir\\Debug\\\\" /Fd"cmTC_b3f7b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b3f7b.dir\\Debug\\\\" /Fd"cmTC_b3f7b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0kakg\\Debug\\cmTC_b3f7b.exe" /INCREMENTAL /ILK:"cmTC_b3f7b.dir\\Debug\\cmTC_b3f7b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-t0kakg/Debug/cmTC_b3f7b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-t0kakg/Debug/cmTC_b3f7b.lib" /MACHINE:X64  /machine:x64 cmTC_b3f7b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b3f7b.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0kakg\\Debug\\cmTC_b3f7b.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_b3f7b.dir\\Debug\\cmTC_b3f7b.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b3f7b.dir\\Debug\\cmTC_b3f7b.tlog\\cmTC_b3f7b.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t0kakg\\cmTC_b3f7b.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.48
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:30:30銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.52
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-lpyt7k"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-lpyt7k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-lpyt7k
+        
+        Run Build Command(s):E:/Microsoft Visual Studio 2022 Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3da4f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:30:32銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpyt7k\\cmTC_3da4f.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3da4f.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpyt7k\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3da4f.dir\\Debug\\cmTC_3da4f.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_3da4f.dir\\Debug\\cmTC_3da4f.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3da4f.dir\\Debug\\cmTC_3da4f.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3da4f.dir\\Debug\\\\" /Fd"cmTC_3da4f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3da4f.dir\\Debug\\\\" /Fd"cmTC_3da4f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpyt7k\\Debug\\cmTC_3da4f.exe" /INCREMENTAL /ILK:"cmTC_3da4f.dir\\Debug\\cmTC_3da4f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-lpyt7k/Debug/cmTC_3da4f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-lpyt7k/Debug/cmTC_3da4f.lib" /MACHINE:X64  /machine:x64 cmTC_3da4f.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3da4f.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpyt7k\\Debug\\cmTC_3da4f.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_3da4f.dir\\Debug\\cmTC_3da4f.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3da4f.dir\\Debug\\cmTC_3da4f.tlog\\cmTC_3da4f.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lpyt7k\\cmTC_3da4f.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.54
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:30:37銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.48
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-lnkt5y"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-lnkt5y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-lnkt5y
+        
+        Run Build Command(s):E:/Microsoft Visual Studio 2022 Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_59c3e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:30:39銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnkt5y\\cmTC_59c3e.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_59c3e.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnkt5y\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_59c3e.dir\\Debug\\cmTC_59c3e.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_59c3e.dir\\Debug\\cmTC_59c3e.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_59c3e.dir\\Debug\\cmTC_59c3e.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_59c3e.dir\\Debug\\\\" /Fd"cmTC_59c3e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_59c3e.dir\\Debug\\\\" /Fd"cmTC_59c3e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnkt5y\\Debug\\cmTC_59c3e.exe" /INCREMENTAL /ILK:"cmTC_59c3e.dir\\Debug\\cmTC_59c3e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-lnkt5y/Debug/cmTC_59c3e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-lnkt5y/Debug/cmTC_59c3e.lib" /MACHINE:X64  /machine:x64 cmTC_59c3e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_59c3e.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnkt5y\\Debug\\cmTC_59c3e.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_59c3e.dir\\Debug\\cmTC_59c3e.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_59c3e.dir\\Debug\\cmTC_59c3e.tlog\\cmTC_59c3e.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnkt5y\\cmTC_59c3e.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.38
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:31:12銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.64
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-hzfkcx"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-hzfkcx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-hzfkcx
+        
+        Run Build Command(s):E:/Microsoft Visual Studio 2022 Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3d1c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:31:14銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hzfkcx\\cmTC_3d1c6.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3d1c6.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hzfkcx\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_3d1c6.dir\\Debug\\cmTC_3d1c6.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_3d1c6.dir\\Debug\\cmTC_3d1c6.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3d1c6.dir\\Debug\\cmTC_3d1c6.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d1c6.dir\\Debug\\\\" /Fd"cmTC_3d1c6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d1c6.dir\\Debug\\\\" /Fd"cmTC_3d1c6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hzfkcx\\Debug\\cmTC_3d1c6.exe" /INCREMENTAL /ILK:"cmTC_3d1c6.dir\\Debug\\cmTC_3d1c6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-hzfkcx/Debug/cmTC_3d1c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-hzfkcx/Debug/cmTC_3d1c6.lib" /MACHINE:X64  /machine:x64 cmTC_3d1c6.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_3d1c6.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hzfkcx\\Debug\\cmTC_3d1c6.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_3d1c6.dir\\Debug\\cmTC_3d1c6.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_3d1c6.dir\\Debug\\cmTC_3d1c6.tlog\\cmTC_3d1c6.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hzfkcx\\cmTC_3d1c6.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.55
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:31:20銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.62
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-9n48kg"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-9n48kg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-9n48kg
+        
+        Run Build Command(s):E:/Microsoft Visual Studio 2022 Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_91270.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:31:22銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n48kg\\cmTC_91270.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_91270.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n48kg\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_91270.dir\\Debug\\cmTC_91270.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_91270.dir\\Debug\\cmTC_91270.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_91270.dir\\Debug\\cmTC_91270.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_91270.dir\\Debug\\\\" /Fd"cmTC_91270.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_91270.dir\\Debug\\\\" /Fd"cmTC_91270.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n48kg\\Debug\\cmTC_91270.exe" /INCREMENTAL /ILK:"cmTC_91270.dir\\Debug\\cmTC_91270.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-9n48kg/Debug/cmTC_91270.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-9n48kg/Debug/cmTC_91270.lib" /MACHINE:X64  /machine:x64 cmTC_91270.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_91270.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n48kg\\Debug\\cmTC_91270.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_91270.dir\\Debug\\cmTC_91270.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_91270.dir\\Debug\\cmTC_91270.tlog\\cmTC_91270.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9n48kg\\cmTC_91270.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.61
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:32:59銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.85
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-49nmoc"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-49nmoc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-49nmoc
+        
+        Run Build Command(s):E:/Microsoft Visual Studio 2022 Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bb85a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:33:02銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49nmoc\\cmTC_bb85a.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bb85a.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49nmoc\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bb85a.dir\\Debug\\cmTC_bb85a.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_bb85a.dir\\Debug\\cmTC_bb85a.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bb85a.dir\\Debug\\cmTC_bb85a.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb85a.dir\\Debug\\\\" /Fd"cmTC_bb85a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb85a.dir\\Debug\\\\" /Fd"cmTC_bb85a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49nmoc\\Debug\\cmTC_bb85a.exe" /INCREMENTAL /ILK:"cmTC_bb85a.dir\\Debug\\cmTC_bb85a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-49nmoc/Debug/cmTC_bb85a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-49nmoc/Debug/cmTC_bb85a.lib" /MACHINE:X64  /machine:x64 cmTC_bb85a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_bb85a.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49nmoc\\Debug\\cmTC_bb85a.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_bb85a.dir\\Debug\\cmTC_bb85a.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bb85a.dir\\Debug\\cmTC_bb85a.tlog\\cmTC_bb85a.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-49nmoc\\cmTC_bb85a.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.76
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:33:08銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.26.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.47
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.26.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "E:/Python3.12.7/Lib/site-packages/cmake/data/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-mvkqao"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-mvkqao"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-mvkqao
+        
+        Run Build Command(s):E:/Microsoft Visual Studio 2022 Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_06220.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && 閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 1:33:10銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mvkqao\\cmTC_06220.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_06220.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mvkqao\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_06220.dir\\Debug\\cmTC_06220.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_06220.dir\\Debug\\cmTC_06220.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_06220.dir\\Debug\\cmTC_06220.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_06220.dir\\Debug\\\\" /Fd"cmTC_06220.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_06220.dir\\Debug\\\\" /Fd"cmTC_06220.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\Python3.12.7\\Lib\\site-packages\\cmake\\data\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mvkqao\\Debug\\cmTC_06220.exe" /INCREMENTAL /ILK:"cmTC_06220.dir\\Debug\\cmTC_06220.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-mvkqao/Debug/cmTC_06220.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-mvkqao/Debug/cmTC_06220.lib" /MACHINE:X64  /machine:x64 cmTC_06220.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_06220.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mvkqao\\Debug\\cmTC_06220.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_06220.dir\\Debug\\cmTC_06220.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_06220.dir\\Debug\\cmTC_06220.tlog\\cmTC_06220.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mvkqao\\cmTC_06220.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.36
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 2:04:44銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.30.5\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.43
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.30.5/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-mpvdry"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-mpvdry"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-mpvdry'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio 2022 Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b43ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 2:04:46銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mpvdry\\cmTC_b43ea.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b43ea.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mpvdry\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b43ea.dir\\Debug\\cmTC_b43ea.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_b43ea.dir\\Debug\\cmTC_b43ea.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b43ea.dir\\Debug\\cmTC_b43ea.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b43ea.dir\\Debug\\\\" /Fd"cmTC_b43ea.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b43ea.dir\\Debug\\\\" /Fd"cmTC_b43ea.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mpvdry\\Debug\\cmTC_b43ea.exe" /INCREMENTAL /ILK:"cmTC_b43ea.dir\\Debug\\cmTC_b43ea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-mpvdry/Debug/cmTC_b43ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-mpvdry/Debug/cmTC_b43ea.lib" /MACHINE:X64  /machine:x64 cmTC_b43ea.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_b43ea.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mpvdry\\Debug\\cmTC_b43ea.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_b43ea.dir\\Debug\\cmTC_b43ea.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b43ea.dir\\Debug\\cmTC_b43ea.tlog\\cmTC_b43ea.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mpvdry\\cmTC_b43ea.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.36
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': E:/Microsoft Visual Studio 2022 Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "E:/Microsoft Visual Studio 2022 Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+      鐢熸垚鍚姩鏃堕棿涓?2024/10/24 2:04:49銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\3.30.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.37
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/Desktop/football_robot/code/build/CMakeFiles/3.30.5/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-jou9l6"
+      binary: "E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-jou9l6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-jou9l6'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio 2022 Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_25bcd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.11.9+a69bbaaf5
+        鐢熸垚鍚姩鏃堕棿涓?2024/10/24 2:04:51銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jou9l6\\cmTC_25bcd.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_25bcd.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jou9l6\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_25bcd.dir\\Debug\\cmTC_25bcd.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_25bcd.dir\\Debug\\cmTC_25bcd.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_25bcd.dir\\Debug\\cmTC_25bcd.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25bcd.dir\\Debug\\\\" /Fd"cmTC_25bcd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.41.34123 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_25bcd.dir\\Debug\\\\" /Fd"cmTC_25bcd.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          E:\\Microsoft Visual Studio 2022 Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jou9l6\\Debug\\cmTC_25bcd.exe" /INCREMENTAL /ILK:"cmTC_25bcd.dir\\Debug\\cmTC_25bcd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-jou9l6/Debug/cmTC_25bcd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Desktop/football_robot/code/build/CMakeFiles/CMakeScratch/TryCompile-jou9l6/Debug/cmTC_25bcd.lib" /MACHINE:X64  /machine:x64 cmTC_25bcd.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_25bcd.vcxproj -> E:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jou9l6\\Debug\\cmTC_25bcd.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_25bcd.dir\\Debug\\cmTC_25bcd.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_25bcd.dir\\Debug\\cmTC_25bcd.tlog\\cmTC_25bcd.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淓:\\Desktop\\football_robot\\code\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jou9l6\\cmTC_25bcd.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.38
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': E:/Microsoft Visual Studio 2022 Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "E:/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "E:/opencv/build/OpenCVConfig.cmake:40 (enable_language)"
+      - "CMakeLists.txt:195 (find_package)"
+    message: |
+      Running the CXX compiler's linker: "E:/Microsoft Visual Studio 2022 Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34123.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

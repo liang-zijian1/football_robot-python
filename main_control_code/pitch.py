@@ -9,9 +9,9 @@ class Pitch:
         self.pitch_p_position_units = None
         self.pitch_motor1 = TalonSRX(15)
         self.pitch_motor2 = TalonSRX(16)
-        self.pitch_max_position = 500  # units,最低点
-        self.pitch_min_position = 23
-        self.pitch_step =  30 # units
+        self.pitch_max_position = 421  # units,最低点
+        self.pitch_min_position = 25
+        self.pitch_step =  40 # units
 
     def motor_init(self):
         self.pitch_motor1.set(ControlMode.Position, 350)
@@ -21,7 +21,7 @@ class Pitch:
         self.pitch_p_position_units = self.pitch_motor1.getSelectedSensorPosition()
         #print(self.pitch_p_position_units)
         # self.pitch_p_position_deg = self.pitch_p_position_units / 4096 * 360
-        if 20 < self.pitch_p_position_units < 510:
+        if self.pitch_min_position < self.pitch_p_position_units < self.pitch_max_position:
             if pitch_button1:
                 self.pitch_position1 = self.pitch_motor1.getSelectedSensorPosition()
                 self.pitch_motor1.set(ControlMode.Position, self.pitch_position1 - self.pitch_step)
@@ -32,7 +32,7 @@ class Pitch:
                 self.pitch_motor1.set(ControlMode.Position, self.pitch_position2 + self.pitch_step)
                 self.pitch_motor2.set(ControlMode.Follower, self.pitch_motor1.getDeviceID())
                 # SmartDashboard.putNumber("sb2",90+((self.position2-self.step-self.middle_position)/4096*360))
-            SmartDashboard.putNumber("Pitch Angle(deg)", (self.pitch_p_position_units-23) / 4096 * 360)
+            SmartDashboard.putNumber("Pitch Angle(deg)", (self.pitch_p_position_units-25) / 4096 * 360)
         else:
             self.pitch_motor1.set(ControlMode.Position, 350)
             self.pitch_motor2.set(ControlMode.Follower, self.pitch_motor1.getDeviceID())

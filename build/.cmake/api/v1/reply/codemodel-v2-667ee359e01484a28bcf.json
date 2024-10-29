@@ -1,0 +1,376 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9fadedfdb93eda0566d3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "apriltag",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-da8a39c0c903d89a761d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-49cbef0b3c130c1658fb.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag-Debug-a3681d45de854c7b08cc.json",
+					"name" : "apriltag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag.cp312-win_amd64::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag.cp312-win_amd64-Debug-db55ef55a0c67d7e3335.json",
+					"name" : "apriltag.cp312-win_amd64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_demo-Debug-109779401cf2e45dfef5.json",
+					"name" : "apriltag_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_py_docstrings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_py_docstrings-Debug-c67ffeca95182bc95e70.json",
+					"name" : "apriltag_py_docstrings",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-27876dd7575d697fb522.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "apriltag",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-da8a39c0c903d89a761d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-49cbef0b3c130c1658fb.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag-Release-53ea7a0be336b3d202ef.json",
+					"name" : "apriltag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag.cp312-win_amd64::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag.cp312-win_amd64-Release-f2c21e76e57703f18da7.json",
+					"name" : "apriltag.cp312-win_amd64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_demo-Release-9cbf85187cf9a1695551.json",
+					"name" : "apriltag_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_py_docstrings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_py_docstrings-Release-c67ffeca95182bc95e70.json",
+					"name" : "apriltag_py_docstrings",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-03eecda806fb2916f729.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "apriltag",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-da8a39c0c903d89a761d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-49cbef0b3c130c1658fb.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag-MinSizeRel-b445ac1fc74655048feb.json",
+					"name" : "apriltag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag.cp312-win_amd64::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag.cp312-win_amd64-MinSizeRel-53326bc7b71e92f94e2b.json",
+					"name" : "apriltag.cp312-win_amd64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_demo-MinSizeRel-2f0eae098610c493a535.json",
+					"name" : "apriltag_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_py_docstrings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_py_docstrings-MinSizeRel-c67ffeca95182bc95e70.json",
+					"name" : "apriltag_py_docstrings",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-3c24002fd45d98429c37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "apriltag",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-da8a39c0c903d89a761d.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-49cbef0b3c130c1658fb.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag-RelWithDebInfo-100f892dcee979adc279.json",
+					"name" : "apriltag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag.cp312-win_amd64::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag.cp312-win_amd64-RelWithDebInfo-2fcca7fc9b636ad12109.json",
+					"name" : "apriltag.cp312-win_amd64",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_demo-RelWithDebInfo-2f5ffdf1edb81f48fc3d.json",
+					"name" : "apriltag_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apriltag_py_docstrings::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apriltag_py_docstrings-RelWithDebInfo-c67ffeca95182bc95e70.json",
+					"name" : "apriltag_py_docstrings",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Desktop/football_robot/code/build",
+		"source" : "E:/Desktop/football_robot/code/Apriltag_python/apriltag"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,775 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 99,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 128,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 134,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 147,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"apriltag.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"apriltag_math.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"apriltag_pose.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/debug_print.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/doubles.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/doubles_floats_impl.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/floats.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/g2d.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/getopt.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 10,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/homography.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/image_types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/image_u8.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/image_u8x3.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/image_u8x4.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/matd.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/math_util.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/pam.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/pjpeg.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/pnm.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/postscript_utils.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/pthreads_cross.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/string_util.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/svd22.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/time_util.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/timeprofile.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 26,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/unionfind.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 27,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/workerpool.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 28,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/zarray.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 29,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/zhash.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag/common",
+			"paths" : 
+			[
+				"common/zmaxheap.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 31,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"tag16h5.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"tag25h9.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"tag36h10.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 34,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"tag36h11.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 35,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"tagCircle21h7.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 36,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"tagCircle49h12.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 37,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"tagCustom48h12.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 38,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"tagStandard41h12.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 39,
+			"component" : "Unspecified",
+			"destination" : "include/apriltag",
+			"paths" : 
+			[
+				"tagStandard52h13.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Debug/apriltagd.lib"
+			],
+			"targetId" : "apriltag::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"targetIsImportLibrary" : true,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 40,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"Debug/apriltagd.dll"
+			],
+			"targetId" : "apriltag::@6890427a1f51a3e7e1df",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 41,
+			"component" : "Unspecified",
+			"destination" : "share/apriltag/cmake",
+			"exportName" : "apriltagTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "apriltag::@6890427a1f51a3e7e1df",
+					"index" : 2
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/aea7189f8149862e5b4d94663c5cd872/apriltagTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 42,
+			"component" : "Unspecified",
+			"destination" : "share/apriltag/cmake",
+			"paths" : 
+			[
+				"E:/Desktop/football_robot/code/build/generated/apriltagConfig.cmake",
+				"E:/Desktop/football_robot/code/build/generated/apriltagConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 43,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"E:/Desktop/football_robot/code/build/apriltag.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 44,
+			"component" : "Unspecified",
+			"destination" : "C:/Program Files (x86)/apriltag/lib/python3.12/site-packages",
+			"paths" : 
+			[
+				"Debug/apriltag.cp312-win_amd64.pyd"
+			],
+			"targetId" : "apriltag.cp312-win_amd64::@6890427a1f51a3e7e1df",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 45,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"Debug/apriltag_demo.exe"
+			],
+			"targetId" : "apriltag_demo::@6890427a1f51a3e7e1df",
+			"targetIndex" : 4,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

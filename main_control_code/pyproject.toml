@@ -28,6 +28,5 @@ robotpy_extras = [
      ]
 
 # Other pip packages to install
-requires = ["robotpy-commands-v2",
-          "phoenix6",
-          "robotpy-ctre"]
+requires = ["robotpy-commands-v2","phoenix6","robotpy-ctre","pynetworktables"]
+
