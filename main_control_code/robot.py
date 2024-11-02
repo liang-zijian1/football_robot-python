@@ -63,6 +63,9 @@ class MyRobot(wpilib.TimedRobot):
         self.my_led.set_color(0, 255, 0,brightness=0.15) 
 
     def teleopPeriodic(self):
+        if self.controller.getStartButtonPressed():
+            self.my_chassis.init_mega()
+        
         self.my_chassis.calc_speed(
             non_leaner_control(
                 self.helper.death_judge(-self.controller.getLeftX(), self.controller.getLeftY(),
@@ -103,6 +106,7 @@ class MyRobot(wpilib.TimedRobot):
         
     def disabledInit(self):
         self.my_led.set_color(255,0,0,brightness=0.15)
+
 
 if __name__ == "__main__":
     wpilib.run(MyRobot)

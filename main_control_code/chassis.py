@@ -1,6 +1,6 @@
 from phoenix6.hardware import Pigeon2, TalonFX, CANcoder
 from phoenix6.controls import DutyCycleOut, TorqueCurrentFOC, VoltageOut, PositionDutyCycle, PositionVoltage, PositionTorqueCurrentFOC, VelocityDutyCycle, VelocityVoltage, VelocityTorqueCurrentFOC, Follower,MusicTone
-from wpilib import XboxController
+from wpilib import XboxController,SmartDashboard
 import math
 
 class Speed:
@@ -105,7 +105,7 @@ def cap_filter(value, peak):
 
 def correct_yaw(_target_angle_gyro, _current_angle, _current_angular_rate):
     # grab some input data from Pigeon and gamepad
-    rcw_error = (_target_angle_gyro - _current_angle) * (-0.009) - _current_angular_rate * (-0.001)  # PD没有I control
+    rcw_error = (_target_angle_gyro - _current_angle) * (-0.02) - _current_angular_rate * (-0.0012)  # PD没有I control
     rcw_error = cap_filter(rcw_error, 0.75)
     rcw_error = dead_bond_filter(rcw_error)
     return rcw_error
@@ -184,18 +184,22 @@ class Chassis:
         if car_v > self.SPEED_V_LIMIT:
             car_v = self.SPEED_V_LIMIT
         car_yaw = math.atan2(speed_y, speed_x)
+        # SmartDashboard.putNumber('speedx',speed_x)
+        # SmartDashboard.putNumber('speedy',speed_y)
+        # SmartDashboard.putNumber('car_yaw',car_yaw)
         # 角度处理
-        if abs(car_yaw > math.pi * 0.5):
+
+        if car_yaw > math.pi * 0.5:
             car_yaw = car_yaw - math.pi
             car_v = -car_v
-        if abs(car_yaw < math.pi * -0.5):
+        if car_yaw < math.pi * -0.5:
             car_yaw = car_yaw + math.pi
             car_v = -car_v
         
         # SmartDashboard.putNumber("car_v",(car_v))
         # SmartDashboard.putNumber("car_yaw",(car_yaw))
-       # print(f'car_v= {car_v}')
-       # print(f'car_yaw= {car_yaw}')
+        # print(f'car_v= {car_v}')
+        # print(f'car_yaw= {car_yaw}')
         
         for i in range(4):
             self.wheel_lp[i].present_speed.m_vec_yaw = car_yaw
@@ -231,6 +235,7 @@ class Chassis:
 
     def init_mega(self):
         self.gyro.clear_sticky_fault_bootup_gyroscope()
+        self.gyro.set_yaw(0)
         self.is_reset = 1
 
     def chassis_init(self):
@@ -244,14 +249,14 @@ class Chassis:
     def run_speed(self, speed_scale, is_dead_area):
         for i in range(4):
             # 如果变换角度大于90°，反复循环直至小于90°
-
-            while abs(self.wheel_lp[i].present_speed.m_vec_yaw - self.wheel_lp[i].last_speed.m_vec_yaw) > math.pi * 0.5:
+            while abs(self.wheel_lp[i].present_speed.m_vec_yaw - self.wheel_lp[i].last_speed.m_vec_yaw) > math.pi/2:
                 if self.wheel_lp[i].present_speed.m_vec_yaw < self.wheel_lp[i].last_speed.m_vec_yaw:
-                    self.wheel_lp[i].present_speed.m_vec_yaw += math.pi
+                    self.wheel_lp[i].present_speed.m_vec_yaw += 2*math.pi
                 else:
-                    self.wheel_lp[i].present_speed.m_vec_yaw -= math.pi
+                    self.wheel_lp[i].present_speed.m_vec_yaw -= 2*math.pi
                 self.wheel_lp[i].present_speed.m_vec_v = -self.wheel_lp[i].present_speed.m_vec_v
-            # print(self.wheel_lp[1].present_speed.m_vec_yaw * 180 / math.pi)
+                # SmartDashboard.putNumber('present',self.wheel_lp[1].present_speed.m_vec_yaw * 180 / math.pi)
+                # SmartDashboard.putNumber('last',self.wheel_lp[1].last_speed.m_vec_yaw * 180 / math.pi)
             if is_dead_area:
                 self.GIM_Wheel[i].wheel_percent_ctrl(0)
                 self.GIM_Wheel[i].set_target_angle(self.wheel_lp[i].last_speed.m_vec_yaw / (2 * math.pi))

@@ -47,7 +47,7 @@ class AutoAim:
         y_offset = self.table.getNumber("y_offset", None)
 
         # 如果没有检测到标签，不执行任何动作
-        if x_offset is 0 or y_offset is 0:
+        if x_offset == 0 or y_offset == 0:
             self.yaw.init_motor()
             self.pitch.motor_init()
             return
